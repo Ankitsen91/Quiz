@@ -1,0 +1,63 @@
+﻿
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background:url(http://localhost:1158/hills-2836301_1920.jpg) no-repeat ;
+}
+
+#quiz-container {
+  background-color: rgba(0, 181, 204,0.5);
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 1);
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+}
+
+h1 {
+  align-content:center;
+}
+
+#question {
+  margin-bottom: 20px;
+}
+
+#options {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin: 5px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #EC7063;
+  color: white;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #138D75;
+}
+
+#next-btn {
+  display:none;
+}
+
+
+
+
